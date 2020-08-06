@@ -1,0 +1,16 @@
+table {
+  margin: auto;
+}
+
+td {
+  padding: 50px;
+}
+.midRow {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.midCol {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}

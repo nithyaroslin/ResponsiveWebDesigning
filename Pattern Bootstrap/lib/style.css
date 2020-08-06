@@ -1,0 +1,36 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pageHeader {
+  background-image: url("../imgs/header.jpeg");
+}
+.pageHeader h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  flex: 33%;
+  max-width: 33%;
+  padding: 25px;
+  text-align: center;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  section {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  main {
+    flex-direction: column;
+  }
+  section {
+    flex: 100%;
+  }
+}
